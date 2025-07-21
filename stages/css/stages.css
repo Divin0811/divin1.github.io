@@ -1,0 +1,152 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #21da11;
+    padding: 10px;
+}
+
+/* Header */
+header.groupe {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Container des listes */
+.container {
+    background: #a55353;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.lili {
+    padding-left: 20px;
+}
+
+.lili li {
+    margin-bottom: 8px;
+}
+
+/* Texte barré et inséré */
+.lolo {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Table des menus */
+.table-lol5 {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 30px;  
+}
+
+.table-lol5 h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(223, 23, 179);
+}
+
+.table-lol5 table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-lol5 th,
+.table-lol5 td {
+    padding: 10px;
+    border: 1px solid #1028b4;
+}
+
+.table-lol5 th {
+    background-color: #1f6788;
+    font-weight: bold;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.img img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 8px solid #eb2121;
+}
+
+/* Section commande */
+.commande {
+    background: #ffffffb6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.commande h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.for-commande form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.for-commande label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.for-commande input,
+.for-commande select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.for-commande input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.for-commande input[type="submit"]:hover {
+    background-color: navy;
+}
+
+/* Footer */
+footer.footer {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+

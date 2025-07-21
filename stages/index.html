@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERALEMENT ça</title>
+    <link rel="icon" type="image/x-icon" href="/images/resto.jpeg">
+    <link rel="stylesheet" href="css/stages.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 0;
+            background-image: url(./images/ee.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body >
+    <header class="groupe" >
+        <h1 style="color: rgb(228, 13, 13);">DIVIN</h1>
+        <h1 style="color: blueviolet;">BAR-RESTO</h1>
+    </header><hr>
+    <div class="container"> 
+        <ol class="lili">
+            <li>VOTRE SATISFATION, NOTRE PRIORITE</li>
+            <li>MANGEZ BIEN, C'EST MANGE CHEZ DIVIN BAR-RESTO</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        <hr>
+    </div>
+    <div class="lolo">
+       <del style="color: brown;">DIVINE DE LONDRE</del>
+       <br>
+       <ins style="color: rgb(236, 134, 9);">DIVIN DE CHINE ET ALENTOURS</ins>
+    </div>
+    <div class="lol2"></div>
+    <div class="lol3"></div>
+    <div class="lol4"></div>
+
+    <div class="table-lol5">
+        <h3>LES MENU </h3>
+        <table border="4">
+            <tr>
+                <th></th>
+                <th>RIZ</th>
+                <th>AKASSA</th>
+                <th>PATE</th>
+                <th>SPAGUETTI</th>
+                <th>SALADE</th>
+            </tr>
+            <tr>
+                <th><pre>1 PLATS</pre></th>
+                <td>1500 f</td>
+                <td>1000 F</td>
+                <td>1500 F</td>
+                <td>1200 F</td>
+                <td>2000 F</td>
+            </tr>
+            <tr>
+                <th><pre>1/2 PLATS</pre></th>
+                <td>800 F</td>
+                <td>600 F</td>
+                <td>800F</td>
+                <td>700 F</td>
+                <td>1100 F</td>
+            </tr>
+        </table>
+    </div>
+    <div class="img" >
+                <img src="images/riz.jpg" alt="" style="height: 180px; width: 200px;">
+                <img src="images/rizaupiosson.jpg" alt="" class="imgs1">
+                <img src="images/pâte.jpg" alt=""  class="imgs2">
+                <img src="images/spaguetti.jpg" alt=""  class="imgs3">
+                <img src="images/saladeep.jpg" alt=""  class="imgs4">
+            </div>
+    <div class="commande">
+        <h2>FAITES VOTRE COMMANDE</h2>
+        <div class="for-commande">
+            <form action="formulaire" method="post">
+                <label for="nom">NOM</label><br>
+                    <input type="text" id="nom" name="nom" placeholder="votre nom" required><br>
+                <label for="numero" >VOTRE NUMERO</label><br>
+                    <input type="tel" id="numero" name="numero" placeholder="ex: 00229 01 90 00 00 00" required><br>
+                <label for="email">VOTRE EMAIL</label><br>
+                    <input type="email" id="email" name="email" placeholder="ex: exemple@gmail.com" ><br>
+                <label for="repas">PLATS A COMMANDER</label><br>
+                    <select name="repas" id="repas"required>
+                        <option value="">--FAITES VOTRE CHOIX--</option>
+                        <option value="riz">RIZ</option>
+                        <option value="akassa">AKASSA</option>
+                        <option value="pate">PATE</option>
+                        <option value="spaguetti">SPAGUETTI</option>
+                        <option value="salade">SALADE</option>
+                    </select><br>
+                <label for="number"> Nombre de commende </label><br>
+                    <input type="number" id="quantité" name="quantité" placeholder="ex: 5 Plats" required min="1"><br>
+                <label for="time">HEURE DE LIVRAISON</label><br>
+                    <input type="time" id="heure" name="time"  required><br>
+                <label for="date">DATE DE LIVRAISON</label><br>
+                    <input type="date" id="date" name="date" required><br>
+                <label for="envoyer"></label><br>
+                    <a href=""><input type="submit" id="submit" name="envoyer"><br></a>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="footer" style="background-color: aqua;">copyright-MASM-DSI</footer>
+</body>
+</html>
